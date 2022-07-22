@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#hero-section{
+    background: url(../images/apple-pie.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-heading{
+    color: white;
+    font-size: 4rem;
+}
+
+.section{
+    margin: 2em 4em;
+    padding: 1.5em 2em;
+}
+
+.image{
+    display: block;
+    margin: auto;
+}
+
+.ingredients-list > li{
+    list-style-type: none;
+}
